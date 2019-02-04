@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="xdbb.netlify.com" resolutions="1x" timestamp="1549303752234">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="xdbb.netlify.com" resolutions="1x" timestamp="1549303895943">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
     <file name="master_a-master.css" crc="3773943573" ref="index"/>
@@ -21,5 +21,5 @@
       <caption webpage="index" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="4092999371" seo="true" mt="1549303731416" redirect="true"/>
+  <file name="index.html" crc="374183167" seo="true" mt="1549303884982" redirect="true"/>
 </manifest>
