@@ -4,9 +4,15 @@
   border: 0;
 }
 
+html,
+body {
+  overflow: hidden; 
+}
+
 body {
   font-family: "Ubuntu";
   font-size: 14px;
+  position: fixed;
 }
 
 header .background {
