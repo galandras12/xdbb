@@ -1,58 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="hu">
 <head>
-  <title>XDBB</title>
-
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <link rel="icon" type="image/png" href="images/xdbbicon.png" />
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta charset="utf-8">
+<title>XDBB - Main</title>
+<meta name="description" content="xdbb web">
+<meta name="keywords" content="xdbb">
+<meta name="author" content="Gal Andras">
+<meta name="robots" content="noindex, nofollow">
+<meta name="generator" content="Gal Andras - 2020">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="xdbbweb.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-3.5.1.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'right', toggle: true, overlay: true});
+});
+</script>
 </head>
 <body>
-  <header>
-    <div class="background"></div>
-    <img class="logo" src="images/logo.png" />
-  </header>
+<div id="container">
+<div id="wb_Text1" style="position:absolute;left:12px;top:86px;width:250px;height:15px;z-index:3;">
+<span style="background-color:#FFFFFF;color:#FFFFFF;font-family:Arial;font-size:13px;"><strong>Fejlesztés alatt...</strong></span></div>
+</div>
+<div id="wb_PageHeader">
+<div id="PageHeader">
+<div class="row">
+<div class="col-1">
+<div id="wb_FontAwesomeIcon1" style="display:inline-block;width:40px;height:40px;text-align:center;z-index:0;">
+<a href="#"><div id="FontAwesomeIcon1"><i class="fa fa-chevron-left"></i></div></a>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Heading1" style="display:inline-block;width:100%;z-index:1;">
+<h1 id="Heading1">XDBB</h1>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_PanelMenu1" style="display:inline-block;width:63px;height:70px;z-index:2;">
+<a href="#PanelMenu1_markup" id="PanelMenu1">&nbsp;</a>
+<div id="PanelMenu1_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="./index.html" class="nav-link"><i class="fa fa-home fa-fw"></i><span>Home</span></a></li>
+   <li role="menuitem"><a href="#" class="nav-link"><i class="fa fa-user fa-fw"></i><span>About Me</span></a></li>
+   <li role="menuitem"><a href="#" class="nav-link"><i class="fa fa-camera fa-fw"></i><span>Gallery</span></a></li>
+   <li role="menuitem"><a href="#" class="nav-link"><i class="fa fa-pencil fa-fw"></i><span>Blog</span></a></li>
+   <li role="menuitem"><a href="#" class="nav-link"><i class="fa fa-link fa-fw"></i><span>Links</span></a></li>
+</ul>
+</div>
 
-  <footer>
-    <section class="posts">
-      <div class="post">
-        <div class="content">
-          <div class="title">Üdvözlünk!</div>
-          <img src="images/csgo_xdbb.png" />
-          <p>Az XDBB hivatalos weboldalán jársz jelenleg! Több játékban is megtalálhatóak vagyunk. Célunk a játékos közösség építése. Ezen közösségek építésénél a fő szempont hogy családias hangulatba tudjunk együtt működve játszani.</p>
-          <p>Aktív közösségünk: <br>
-          <ul>
-            <li>1. Discord [<a href="https://discord.gg/RAREq7v">Legyél te is a tagja</a>]</li>
-            <li>2. GTA Online</li>
-            <li>3. League of Legends</li>
-            <li>4. Destiny 2</li>
-            <li>5. Minion Masters</li></p>
-          </ul>
-          <p>A tagságot vezetői elbirálást követően tudunk adni. Ezzel kapcsoaltban is érdemes keresni a vezetőket Discord-on.</p>
-        </div>
-      </div>
-
-      <div class="post">
-        <div class="content">
-          <div class="title">Élő közvetítések</div>
-          
-          <p><iframe src="https://player.twitch.tv/?channel=xdbbclan" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><a href="https://www.twitch.tv/xdbbclan?tt_content=text_link&tt_medium=live_embed" style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Nézd meg xdbbclan élő videóját a www.twitch.tv weboldalon</a></p>
-        </div>
-      </div>
-      
-       <div class="post">
-        <div class="content">
-          <div class="title">További tartalom</div>
-
-          <p>Hamarosan...</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="copyright">
-      XDBB &copy; 2018 - Minden jog fentartva!
-    </section>
-  </footer>
+</div>
+</div>
+</div>
+</div>
+</div>
 </body>
 </html>
